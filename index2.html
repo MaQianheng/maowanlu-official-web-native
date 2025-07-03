@@ -4,6 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="profile" href="https://gmpg.org/xfn/11" />
+    <script type="text/javascript">
+      var isInIFrame = window.self !== window.top ? true : false;
+
+      if (!isInIFrame) {
+        var jsData = [
+          'showcase-cta',
+          'https:\/\/websitedemos.net\/local-business-02\/wp-content\/plugins\/astra-sites-server\/admin\/showcase-cta\/switcher\/dist\/style-main.css?ver=6aa7bff7ae92912fbd6e',
+        ];
+        var style = document.createElement('link');
+        style.setAttribute('id', jsData[0]);
+        style.setAttribute('rel', 'stylesheet');
+        style.setAttribute('type', 'text/css');
+        style.setAttribute('media', 'all');
+        style.setAttribute('href', jsData[1]);
+
+        document.head.appendChild(style);
+      }
+    </script>
     <meta name="robots" content="noindex, nofollow" />
     <style>
       img:is([sizes='auto' i], [sizes^='auto,' i]) {
@@ -319,12 +337,6 @@
       href="./css/astra-theme-css-inline-css.css"
       media="all"
     />
-    <link
-      rel="stylesheet"
-      id="astra-google-fonts-css"
-      href="./css/astra-google-fonts-css.css"
-      media="all"
-    />
     <style id="wp-emoji-styles-inline-css">
       img.wp-smiley,
       img.emoji {
@@ -373,30 +385,6 @@
       rel="stylesheet"
       id="elementor-post-6-css"
       href="https://websitedemos.net/local-business-02/wp-content/uploads/sites/832/elementor/css/post-6.css?ver=1718178356"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="elementor-gf-local-roboto-css"
-      href="https://websitedemos.net/local-business-02/wp-content/uploads/sites/832/elementor/google-fonts/css/roboto.css?ver=1742883022"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="elementor-gf-local-robotoslab-css"
-      href="https://websitedemos.net/local-business-02/wp-content/uploads/sites/832/elementor/google-fonts/css/robotoslab.css?ver=1742883033"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="elementor-icons-shared-0-css"
-      href="https://websitedemos.net/local-business-02/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="elementor-icons-fa-solid-css"
-      href="https://websitedemos.net/local-business-02/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
       media="all"
     />
     <script
@@ -487,10 +475,6 @@
       })(window, document, 'script', 'dataLayer', 'GTM-PW78FQ8');
     </script>
     <!-- End Google Tag Manager -->
-    <meta
-      name="generator"
-      content="Elementor 3.29.1; features: additional_custom_breakpoints, e_local_google_fonts; settings: css_print_method-external, google_font-enabled, font_display-auto"
-    />
     <style>
       .recentcomments a {
         display: inline !important;
@@ -2301,38 +2285,6 @@
       <!-- #colophon -->
     </div>
     <!-- #page -->
-    <script type="speculationrules">
-      {
-        "prefetch": [
-          {
-            "source": "document",
-            "where": {
-              "and": [
-                { "href_matches": "\/local-business-02\/*" },
-                {
-                  "not": {
-                    "href_matches": [
-                      "\/local-business-02\/wp-*.php",
-                      "\/local-business-02\/wp-admin\/*",
-                      "\/local-business-02\/wp-content\/uploads\/sites\/832\/*",
-                      "\/local-business-02\/wp-content\/*",
-                      "\/local-business-02\/wp-content\/plugins\/*",
-                      "\/local-business-02\/wp-content\/themes\/astra\/*",
-                      "\/local-business-02\/*\\?(.+)"
-                    ]
-                  }
-                },
-                { "not": { "selector_matches": "a[rel~=\"nofollow\"]" } },
-                {
-                  "not": { "selector_matches": ".no-prefetch, .no-prefetch a" }
-                }
-              ]
-            },
-            "eagerness": "conservative"
-          }
-        ]
-      }
-    </script>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 0 0"
@@ -2435,36 +2387,6 @@
         document.addEventListener(event, lazyloadRunObserver);
       });
     </script>
-    <link
-      rel="stylesheet"
-      id="widget-image-box-css"
-      href="https://websitedemos.net/local-business-02/wp-content/plugins/elementor/assets/css/widget-image-box.min.css?ver=3.29.1"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="widget-image-css"
-      href="https://websitedemos.net/local-business-02/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.29.1"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="widget-heading-css"
-      href="https://websitedemos.net/local-business-02/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.29.1"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="widget-star-rating-css"
-      href="https://websitedemos.net/local-business-02/wp-content/plugins/elementor/assets/css/widget-star-rating.min.css?ver=3.29.1"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="widget-testimonial-css"
-      href="https://websitedemos.net/local-business-02/wp-content/plugins/elementor/assets/css/widget-testimonial.min.css?ver=3.29.1"
-      media="all"
-    />
     <script id="astra-theme-js-js-extra">
       var astra = {
         break_point: '921',
@@ -2535,146 +2457,6 @@
             'ipt>'
         );
     </script>
-    <script
-      src="https://websitedemos.net/local-business-02/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.29.1"
-      id="elementor-webpack-runtime-js"
-    ></script>
-    <script
-      src="https://websitedemos.net/local-business-02/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-      id="jquery-core-js"
-    ></script>
-    <script
-      src="https://websitedemos.net/local-business-02/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-      id="jquery-migrate-js"
-    ></script>
-    <script
-      src="https://websitedemos.net/local-business-02/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.29.1"
-      id="elementor-frontend-modules-js"
-    ></script>
-    <script
-      src="https://websitedemos.net/local-business-02/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
-      id="jquery-ui-core-js"
-    ></script>
-    <script id="elementor-frontend-js-before">
-      var elementorFrontendConfig = {
-        environmentMode: {
-          edit: false,
-          wpPreview: false,
-          isScriptDebug: false,
-        },
-        i18n: {
-          shareOnFacebook: 'Share on Facebook',
-          shareOnTwitter: 'Share on Twitter',
-          pinIt: 'Pin it',
-          download: 'Download',
-          downloadImage: 'Download image',
-          fullscreen: 'Fullscreen',
-          zoom: 'Zoom',
-          share: 'Share',
-          playVideo: 'Play Video',
-          previous: 'Previous',
-          next: 'Next',
-          close: 'Close',
-          a11yCarouselPrevSlideMessage: 'Previous slide',
-          a11yCarouselNextSlideMessage: 'Next slide',
-          a11yCarouselFirstSlideMessage: 'This is the first slide',
-          a11yCarouselLastSlideMessage: 'This is the last slide',
-          a11yCarouselPaginationBulletMessage: 'Go to slide',
-        },
-        is_rtl: false,
-        breakpoints: { xs: 0, sm: 480, md: 768, lg: 1025, xl: 1440, xxl: 1600 },
-        responsive: {
-          breakpoints: {
-            mobile: {
-              label: 'Mobile Portrait',
-              value: 767,
-              default_value: 767,
-              direction: 'max',
-              is_enabled: true,
-            },
-            mobile_extra: {
-              label: 'Mobile Landscape',
-              value: 880,
-              default_value: 880,
-              direction: 'max',
-              is_enabled: false,
-            },
-            tablet: {
-              label: 'Tablet Portrait',
-              value: 1024,
-              default_value: 1024,
-              direction: 'max',
-              is_enabled: true,
-            },
-            tablet_extra: {
-              label: 'Tablet Landscape',
-              value: 1200,
-              default_value: 1200,
-              direction: 'max',
-              is_enabled: false,
-            },
-            laptop: {
-              label: 'Laptop',
-              value: 1366,
-              default_value: 1366,
-              direction: 'max',
-              is_enabled: false,
-            },
-            widescreen: {
-              label: 'Widescreen',
-              value: 2400,
-              default_value: 2400,
-              direction: 'min',
-              is_enabled: false,
-            },
-          },
-          hasCustomBreakpoints: false,
-        },
-        version: '3.29.1',
-        is_static: false,
-        experimentalFeatures: {
-          additional_custom_breakpoints: true,
-          container: true,
-          e_local_google_fonts: true,
-          'nested-elements': true,
-          editor_v2: true,
-          home_screen: true,
-          'cloud-library': true,
-          e_opt_in_v4_page: true,
-        },
-        urls: {
-          assets:
-            'https:\/\/websitedemos.net\/local-business-02\/wp-content\/plugins\/elementor\/assets\/',
-          ajaxurl:
-            'https:\/\/websitedemos.net\/local-business-02\/wp-admin\/admin-ajax.php',
-          uploadUrl:
-            'https:\/\/websitedemos.net\/local-business-02\/wp-content\/uploads\/sites\/832',
-        },
-        nonces: { floatingButtonsClickTracking: '0c814e7864' },
-        swiperClass: 'swiper',
-        settings: { page: [], editorPreferences: [] },
-        kit: {
-          active_breakpoints: ['viewport_mobile', 'viewport_tablet'],
-          global_image_lightbox: 'yes',
-          lightbox_enable_counter: 'yes',
-          lightbox_enable_fullscreen: 'yes',
-          lightbox_enable_zoom: 'yes',
-          lightbox_enable_share: 'yes',
-          lightbox_title_src: 'title',
-          lightbox_description_src: 'description',
-        },
-        post: {
-          id: 6,
-          title: 'Home%20-%20Local%20Business',
-          excerpt: '',
-          featuredImage: false,
-        },
-      };
-    </script>
-    <script
-      src="https://websitedemos.net/local-business-02/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.29.1"
-      id="elementor-frontend-js"
-    ></script>
     <script>
       /(trident|msie)/i.test(navigator.userAgent) &&
         document.getElementById &&
@@ -2693,12 +2475,5 @@
           !1
         );
     </script>
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
-      integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
-      data-cf-beacon='{"rayId":"9592b16e5f61ddc9","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.6.2","token":"974d812d4f9e465096df037cad7ee20d"}'
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
